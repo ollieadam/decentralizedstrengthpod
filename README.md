@@ -1,9 +1,9 @@
-# Decentralized Strength
+# Decentralized Strength Pod
 
 A podcast &amp; blog about coaching methods, athletics, and career paths in independent strength and conditioning.
 
-**URL:** https://decentralizedstrength.com
-**Remote:** `git@github.com:ollieadam/decentralizedstrength.git`
+**URL:** https://decentralizedpod.com
+**Remote:** `git@github.com:ollieadam/decentralizedpod.git`
 **Deploy:** push to `main` → auto-deploys via GitHub Pages.
 
 ## Structure
