@@ -2,7 +2,7 @@
 
 A podcast &amp; blog about coaching methods, athletics, and career paths in independent strength and conditioning.
 
-**URL:** https://decentralizedpod.com
+**URL:** https://decentralizedstrengthpod.com
 **Remote:** `git@github.com:ollieadam/decentralizedpod.git`
 **Deploy:** push to `main` → auto-deploys via GitHub Pages.
 
