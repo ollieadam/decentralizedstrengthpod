@@ -1,4 +1,4 @@
-# Decentralized Strength Pod
+# Decentralized Strength Podcast
 
 A podcast &amp; blog about coaching methods, athletics, and career paths in independent strength and conditioning.
 
