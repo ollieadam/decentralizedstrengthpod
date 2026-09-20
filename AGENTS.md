@@ -25,7 +25,7 @@ The podcast site for Decentralized Strength LLC — show, episodes, and subscrib
 ## Brand rules
 - Domain string is **`decentralizedstrengthpod.com`** (NOT `decentralizedpod.com`). Grep before shipping.
 - The pod site keeps its own podcast logo; the **Decentralized Strength LLC** landing lives separately at `decentralizedstrength.com` with its own evolved-hexagon mark.
-- Palette when touching CSS: warm cream `~#f7f4ef` / ink `#000` / greys. **No red.** Keep this a show site, not a second holdings portal.
+- Palette when touching CSS: cream `#f7f4ef` / ink `#000000` / greys `#efebe4` · `#6b6b6b` · `#e5e5e5`. Georgia/Times body + `ui-monospace` kickers. **No red.** Keep this a show site, not a second holdings portal.
 - Reading lives on `decentralizedstrength.com`. Do not re-host journal posts here.
 
 ## Essay redirects (pod → parent)
