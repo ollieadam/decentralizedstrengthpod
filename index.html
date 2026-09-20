@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Decentralized Strength Podcast — Coaching Methods, Athletics &amp; Career Paths</title>
-<meta name="description" content="Decentralized Strength Podcast is a podcast and blog about coaching methods, athletics, and career paths in independent strength and conditioning — for coaches, fitness enthusiasts, and serious-minded athletes. No fluff, no trends.">
+<meta name="description" content="Decentralized Strength Podcast is a show about coaching methods, athletics, and career paths in independent strength and conditioning — for coaches, fitness enthusiasts, and serious-minded athletes. No fluff, no trends.">
 <meta name="robots" content="index, follow">
 <meta name="google-site-verification" content="SgwIPU2dHZ2XB2uYEpxRJGjZlYFfIbO02uXk0t8pdL0" />
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Decentralized Strength Podcast — Coaching Methods, Athletics &amp; Career Paths">
-<meta property="og:description" content="A podcast &amp; blog about coaching methods, athletics, and career paths in independent strength and conditioning. Hosted by Adam Oliver, CSCS. No fluff, no trends.">
+<meta property="og:description" content="A podcast about coaching methods, athletics, and career paths in independent strength and conditioning. Hosted by Adam Oliver, CSCS. No fluff, no trends.">
 <meta property="og:url" content="https://decentralizedstrengthpod.com/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://decentralizedstrengthpod.com/logo-cover.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Decentralized Strength Podcast">
-<meta name="twitter:description" content="A podcast &amp; blog about coaching methods, athletics, and career paths in independent strength and conditioning.">
+<meta name="twitter:description" content="A podcast about coaching methods, athletics, and career paths in independent strength and conditioning.">
 <meta name="twitter:image" content="https://decentralizedstrengthpod.com/logo-cover.png">
 <link rel="canonical" href="https://decentralizedstrengthpod.com/">
 <link rel="icon" type="image/png" href="/favicon.png?v=2">
@@ -23,10 +23,10 @@
 <style>
 :root{
   --ink:#000000;
-  --paper:#ffffff;
-  --grey:#f4f4f4;
+  --paper:#f7f4ef;
+  --grey:#efeae3;
   --mid:#6b6b6b;
-  --line:#e5e5e5;
+  --line:#e4dfd6;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -43,7 +43,7 @@ a{color:var(--ink);text-decoration:none}
 
 /* NAV */
 header{
-  position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);
+  position:sticky;top:0;background:rgba(247,244,239,.94);backdrop-filter:blur(6px);
   border-bottom:1px solid var(--line);z-index:50;
 }
 .nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
@@ -89,13 +89,14 @@ section.alt{background:var(--grey);border-top:1px solid var(--line);border-botto
 .split ul{list-style:none;font-size:.92rem;color:#333}
 .split ul li{padding:.3rem 0;border-bottom:1px solid var(--line)}
 .split ul li:last-child{border-bottom:none}
+.split a{border-bottom:1px solid var(--ink)}
 @media(max-width:720px){.split{grid-template-columns:1fr}}
 
 /* EPISODES */
 .ep-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
 .ep{background:var(--paper);padding:1.6rem;display:flex;flex-direction:column;gap:.6rem}
 .ep .ep-num{font-family:ui-monospace,monospace;color:var(--mid);font-size:.72rem;letter-spacing:.14em}
-.ep .ep-thumb{width:100%;aspect-ratio:16/9;object-fit:cover;background:#eee;border:1px solid var(--line)}
+.ep .ep-thumb{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--grey);border:1px solid var(--line)}
 .ep h3{font-size:1.02rem;line-height:1.3;font-weight:600}
 .ep .ep-meta{font-family:ui-monospace,monospace;font-size:.68rem;letter-spacing:.08em;color:var(--mid);text-transform:uppercase}
 .ep p.desc{font-size:.86rem;color:#444;flex:1}
@@ -106,21 +107,9 @@ section.alt{background:var(--grey);border-top:1px solid var(--line);border-botto
 
 /* HOST */
 .host{display:grid;grid-template-columns:200px 1fr;gap:2rem;align-items:start}
-.host .avatar{width:100%;border:1px solid var(--line);background:#eee;display:block}
+.host .avatar{width:100%;border:1px solid var(--line);background:var(--grey);display:block}
 .host p{color:#333;font-size:.96rem;margin-bottom:.75rem}
 @media(max-width:640px){.host{grid-template-columns:1fr}.host .avatar{max-width:200px}}
-
-/* BLOG */
-.blog-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line)}
-.blog-card{background:var(--paper);padding:1.8rem;display:flex;flex-direction:column;gap:.6rem}
-.blog-card .bc-tag{font-family:ui-monospace,monospace;font-size:.66rem;letter-spacing:.14em;color:var(--mid);text-transform:uppercase}
-.blog-card h3{font-size:1.15rem;line-height:1.3;font-weight:600}
-.blog-card p{font-size:.9rem;color:#444;flex:1}
-.blog-card .bc-meta{font-family:ui-monospace,monospace;font-size:.68rem;color:var(--mid);letter-spacing:.08em;text-transform:uppercase}
-.blog-card .bc-link{font-size:.82rem;font-weight:700;border-bottom:1px solid var(--ink);align-self:flex-start}
-.blog-card:hover{background:#fafafa}
-.blog-card.coming{background:#fafafa;opacity:.9}
-@media(max-width:640px){.blog-grid{grid-template-columns:1fr}}
 
 /* SUBSCRIBE */
 .sub-links{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line)}
@@ -148,7 +137,7 @@ footer a{color:var(--ink);border-bottom:1px solid var(--line)}
   "@context":"https://schema.org",
   "@type":"PodcastSeries",
   "name":"Decentralized Strength Podcast",
-  "description":"A podcast and blog about coaching methods, athletics, and career paths in independent strength and conditioning, hosted by Adam Oliver, CSCS.",
+  "description":"A podcast about coaching methods, athletics, and career paths in independent strength and conditioning, hosted by Adam Oliver, CSCS.",
   "url":"https://decentralizedstrengthpod.com/",
   "webFeed":"https://www.youtube.com/feeds/videos.xml?channel_id=UCTPsiuyuPRUy_UPGNbaTIRg",
   "author":{"@type":"Person","name":"Adam Oliver"},
@@ -164,8 +153,8 @@ footer a{color:var(--ink);border-bottom:1px solid var(--line)}
     <nav class="nav-links" id="navLinks">
       <a href="#about">About</a>
       <a href="#episodes">Episodes</a>
-      <a href="#blog">Blog</a>
       <a href="#subscribe">Subscribe</a>
+      <a href="https://decentralizedstrength.com/philosophy.html" target="_blank" rel="noopener">Essays</a>
       <a href="https://www.youtube.com/@DecentralizedStrengthpod" class="nav-cta" target="_blank" rel="noopener">Watch on YouTube</a>
     </nav>
     <button class="hamburger" onclick="document.getElementById('navLinks').style.display=(document.getElementById('navLinks').style.display==='flex'?'none':'flex');document.getElementById('navLinks').style.flexDirection='column';document.getElementById('navLinks').style.alignItems='flex-start'" aria-label="Menu">☰</button>
@@ -175,13 +164,13 @@ footer a{color:var(--ink);border-bottom:1px solid var(--line)}
 <!-- HERO -->
 <section class="hero">
   <img class="logo" src="/logo.png" alt="Decentralized Strength Podcast logo">
-  <p class="mono tag">A Podcast &amp; Blog</p>
+  <p class="mono tag">A Podcast</p>
   <h1>Coaching Methods,<br>Athletics &amp; Career Paths.</h1>
   <div class="rule"></div>
   <p class="sub">Decentralized Strength Podcast is for independent strength &amp; conditioning coaches, fitness enthusiasts, and serious-minded athletes. Real conversations about how we coach, how athletes develop, and how to build a career in this game — no fluff, no trends. New episodes quarterly.</p>
   <div class="hero-actions">
     <a href="#episodes" class="btn btn-solid">Latest Episodes</a>
-    <a href="#blog" class="btn btn-ghost">Read the Blog</a>
+    <a href="#subscribe" class="btn btn-ghost">Subscribe</a>
   </div>
 </section>
 
@@ -205,13 +194,14 @@ footer a{color:var(--ink);border-bottom:1px solid var(--line)}
       </div>
       <div>
         <h3>How It Differs from a Local Gym Blog</h3>
-        <p>This isn't a local "workouts and training in one city" blog. It's a national, topic-first show about the ideas behind the work — conversations with coaches, scientists, and athletes who've done it, plus honest journal entries on the coaching life.</p>
+        <p>This isn't a local "workouts and training in one city" site. It's a national, topic-first show about the ideas behind the work — conversations with coaches, scientists, and athletes who've done it.</p>
         <ul>
           <li>Not tied to a single location</li>
           <li>Topics over promotions</li>
-          <li>First-person, unfiltered writing</li>
           <li>Guests from across the field</li>
+          <li>Essays live on the parent site</li>
         </ul>
+        <p>Reading — the 4 P’s and the rest of the journal — lives at <a href="https://decentralizedstrength.com/" target="_blank" rel="noopener">decentralizedstrength.com</a>. Start with the <a href="https://decentralizedstrength.com/philosophy.html" target="_blank" rel="noopener">philosophy</a>.</p>
       </div>
     </div>
   </div>
@@ -225,7 +215,7 @@ footer a{color:var(--ink);border-bottom:1px solid var(--line)}
       <h2>The Podcast.</h2>
       <p>Every episode is an honest conversation with a coach, scientist, or athlete. Watch on YouTube — no account needed, no fluff.</p>
     </div>
-    <div class="ep-grid" id="episodes"></div>
+    <div class="ep-grid" id="episode-list"></div>
   </div>
 </section>
 
@@ -241,52 +231,6 @@ footer a{color:var(--ink);border-bottom:1px solid var(--line)}
       <div>
         <p>I'm a Certified Strength &amp; Conditioning Specialist. I've trained directly at Mike Boyle Strength &amp; Conditioning alongside coaches of professional and D1 athletes, worked as the strength &amp; conditioning coach for the SC Stingrays pro hockey team, and coached everyone from youth athletes to older adults. I hold a BS in Physical Education &amp; Exercise Science from Norwich University.</p>
         <p>This podcast is me documenting my evolving coaching philosophy and fitness journey — the methods, the mistakes, and the career path of building this independent.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- BLOG -->
-<section id="blog" class="alt">
-  <div class="container">
-    <div class="sec-head">
-      <p class="mono kicker">Blog</p>
-      <h2>Journal Entries.</h2>
-      <p>Unfiltered writing on coaching and athletics — the kind of honest notes I'd want to read myself.</p>
-    </div>
-    <div class="blog-grid">
-      <a href="/blog/the-4-ps.html" class="blog-card">
-        <span class="bc-tag">Journal · Philosophy</span>
-        <h3>The 4 P’s: Preparation · Practice · Patience · Positivity</h3>
-        <p>Same four habits across coaching, money, and content — stacking them, not posting them.</p>
-        <span class="bc-meta">Sep 2026 · 9 min read</span>
-        <span class="bc-link">Read →</span>
-      </a>
-      <a href="/blog/robust-aging.html" class="blog-card">
-        <span class="bc-tag">Journal · Longevity</span>
-        <h3>Robust Aging: Why Senior Fitness Is About a Life You Can Live, Not a Body That Looks Good</h3>
-        <p>Most senior programs are scared of challenge. Here's why I think that's backwards — and what I actually do instead.</p>
-        <span class="bc-meta">May 2026 · 4 min read</span>
-        <span class="bc-link">Read →</span>
-      </a>
-      <a href="/blog/pro-level-results-from-a-park.html" class="blog-card">
-        <span class="bc-tag">Journal · Coaching</span>
-        <h3>The Gym Is Not the Point: Why Pro-Level Results Don't Need a Fancy Facility</h3>
-        <p>After MBSC, the biggest lesson I walked away with wasn't about equipment. It was about systems. Here's what actually develops athletes.</p>
-        <span class="bc-meta">May 2026 · 8 min read</span>
-        <span class="bc-link">Read →</span>
-      </a>
-      <div class="blog-card coming">
-        <span class="bc-tag">Coming Soon</span>
-        <h3>Going Solo: What Independent S&amp;C Actually Costs (and Pays)</h3>
-        <p>The honest math and mindset of building an independent coaching career.</p>
-        <span class="bc-meta">In progress</span>
-      </div>
-      <div class="blog-card coming">
-        <span class="bc-tag">Coming Soon</span>
-        <h3>The First Five Years: A Coach's Journal</h3>
-        <p>Notes from the road — coaching, career, and the long game.</p>
-        <span class="bc-meta">In progress</span>
       </div>
     </div>
   </div>
@@ -334,23 +278,23 @@ footer a{color:var(--ink);border-bottom:1px solid var(--line)}
 <footer>
   <div class="container">
     <span>© 2026 Decentralized Strength Podcast · Hosted by Adam Oliver, CSCS</span>
-    <span><a href="https://www.youtube.com/@DecentralizedStrengthpod" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/decentralizedstrengthpod" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/decentralizedstrengthpod" target="_blank" rel="noopener">Facebook</a></span>
+    <span><a href="https://decentralizedstrength.com/" target="_blank" rel="noopener">Essays &amp; philosophy</a> · <a href="https://www.youtube.com/@DecentralizedStrengthpod" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/decentralizedstrengthpod" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/decentralizedstrengthpod" target="_blank" rel="noopener">Facebook</a></span>
   </div>
 </footer>
 
 <script>
 const EPISODES = [
-  {v:"omAfHqdldBg", n:"01", title:"Senior Fitness Part 2: What Does a Real Training Program for Older Adults Look Like?", guest:"with Pat VanGalen", date:"Feb 2026", desc:"Mobility, strength, and balance — how to prioritize, and training for independence over aesthetics.", bs:"15382984"},
-  {v:"GWOTotIsFiA", n:"02", title:"Youth Athletic Development from Baby to Elementary School", guest:"with Dr. Elizabeth Wuorinen", date:"Feb 2026", desc:"Motor milestones, early sport specialization, and how to build athleticism in young kids.", bs:"14189755"},
-  {v:"iGhgSXzCarw", n:"03", title:"What's Actually in Your Energy Drink?", guest:"with Zachary Smith of Gladiator Energy", date:"Feb 2026", desc:"Hype vs. science — the ingredients that matter for muscle, brain, and immune function.", bs:"13548762"},
-  {v:"c3do6VvE3mI", n:"04", title:"Can Hard Work Beat Talent?", guest:"with Dr. Elizabeth Wuorinen", date:"Feb 2026", desc:"Sports nutrition, leadership, and the science of athletic potential.", bs:"13139067"},
-  {v:"ZVA_kol0zMA", n:"05", title:"Energy Systems & Muscle Types Explained", guest:"with Dr. Elizabeth Wuorinen", date:"Feb 2026", desc:"The three energy systems and fast- vs. slow-twitch fibers — and how to train them.", bs:"12422764"},
-  {v:"lPCLsRo-64c", n:"06", title:"Physical Education, Active Lifestyles & the Vermont Approach", guest:"with Prof. Thomas Roberge", date:"Feb 2026", desc:"The state of PE and how early movement habits shape lifelong health.", bs:"12246586"},
-  {v:"cGkPUabfPXU", n:"07", title:"Live Long, Die Fast", guest:"with Pat VanGalen", date:"Feb 2026", desc:"Senior fitness, longevity, and training for independence. The philosophy that started it all.", bs:"12196340"},
-  {v:"a4W1TDEhKyk", n:"08", title:"How to Coach Better Athletes & Better Humans", guest:"with Eric Daddario", date:"Feb 2026", desc:"Youth strength, mental toughness, and decision-making on and off the field.", bs:"12139094"},
-  {v:"thhcIEjBHJ8", n:"09", title:"From Stage 3 Cancer to Comeback", guest:"with Matt Ode", date:"Feb 2026", desc:"A raw story of resilience, discipline, and rebuilding strength after everything was taken.", bs:"12126760"}
+  {v:"omAfHqdldBg", n:"01", title:"Senior Fitness Part 2: What Does a Real Training Program for Older Adults Look Like?", guest:"with Pat VanGalen", date:"Feb 2026", desc:"Mobility, strength, and balance — how to prioritize, and training for independence over aesthetics."},
+  {v:"GWOTotIsFiA", n:"02", title:"Youth Athletic Development from Baby to Elementary School", guest:"with Dr. Elizabeth Wuorinen", date:"Feb 2026", desc:"Motor milestones, early sport specialization, and how to build athleticism in young kids."},
+  {v:"iGhgSXzCarw", n:"03", title:"What's Actually in Your Energy Drink?", guest:"with Zachary Smith of Gladiator Energy", date:"Feb 2026", desc:"Hype vs. science — the ingredients that matter for muscle, brain, and immune function."},
+  {v:"c3do6VvE3mI", n:"04", title:"Can Hard Work Beat Talent?", guest:"with Dr. Elizabeth Wuorinen", date:"Feb 2026", desc:"Sports nutrition, leadership, and the science of athletic potential."},
+  {v:"ZVA_kol0zMA", n:"05", title:"Energy Systems & Muscle Types Explained", guest:"with Dr. Elizabeth Wuorinen", date:"Feb 2026", desc:"The three energy systems and fast- vs. slow-twitch fibers — and how to train them."},
+  {v:"lPCLsRo-64c", n:"06", title:"Physical Education, Active Lifestyles & the Vermont Approach", guest:"with Prof. Thomas Roberge", date:"Feb 2026", desc:"The state of PE and how early movement habits shape lifelong health."},
+  {v:"cGkPUabfPXU", n:"07", title:"Live Long, Die Fast", guest:"with Pat VanGalen", date:"Feb 2026", desc:"Senior fitness, longevity, and training for independence. The philosophy that started it all."},
+  {v:"a4W1TDEhKyk", n:"08", title:"How to Coach Better Athletes & Better Humans", guest:"with Eric Daddario", date:"Feb 2026", desc:"Youth strength, mental toughness, and decision-making on and off the field."},
+  {v:"thhcIEjBHJ8", n:"09", title:"From Stage 3 Cancer to Comeback", guest:"with Matt Ode", date:"Feb 2026", desc:"A raw story of resilience, discipline, and rebuilding strength after everything was taken."}
 ];
-const wrap = document.getElementById('episodes');
+const wrap = document.getElementById('episode-list');
 EPISODES.forEach(function(ep){
   const el = document.createElement('div');
   el.className = 'ep';
